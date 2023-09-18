@@ -2,6 +2,7 @@
 const { ethers } = require("hardhat")
 
 // async main
+// todo: delete
 async function main() {
     const Album = await ethers.getContractFactory("Album")
     console.log("Deploying contract...")
